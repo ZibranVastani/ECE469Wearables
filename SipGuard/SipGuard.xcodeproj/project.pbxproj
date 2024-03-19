@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD54F7022B877EB8003D31F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD54F7012B877EB8003D31F9 /* AppDelegate.swift */; };
+		BD54F7042B877EB8003D31F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD54F7032B877EB8003D31F9 /* SceneDelegate.swift */; };
+		BD54F7062B877EB8003D31F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD54F7052B877EB8003D31F9 /* ViewController.swift */; };
+		BD54F7092B877EB8003D31F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD54F7072B877EB8003D31F9 /* Main.storyboard */; };
+		BD54F70B2B877EBB003D31F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD54F70A2B877EBB003D31F9 /* Assets.xcassets */; };
+		BD54F70E2B877EBB003D31F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD54F70C2B877EBB003D31F9 /* LaunchScreen.storyboard */; };
+		BD54F7192B877EBC003D31F9 /* SipGuardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD54F7182B877EBC003D31F9 /* SipGuardTests.swift */; };
+		BD54F7232B877EBC003D31F9 /* SipGuardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD54F7222B877EBC003D31F9 /* SipGuardUITests.swift */; };
+		BD54F7252B877EBC003D31F9 /* SipGuardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD54F7242B877EBC003D31F9 /* SipGuardUITestsLaunchTests.swift */; };
+		BD7DE2D82B87857D00296DC8 /* Dial.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD54F7342B87813C003D31F9 /* Dial.swift */; };
+		BD7DE2D92B87857F00296DC8 /* DialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD54F7352B87813C003D31F9 /* DialView.swift */; };
+		BD7DE2DA2B87858000296DC8 /* SpokesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD54F7362B87813C003D31F9 /* SpokesView.swift */; };
+		BD7DE2DB2B87858200296DC8 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD54F7372B87813C003D31F9 /* CircleView.swift */; };
+		BD7DE2DC2B87858300296DC8 /* DialHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD54F7382B87813C003D31F9 /* DialHeaderView.swift */; };
+		BD7DE2DE2B879FF800296DC8 /* ViewControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DE2DD2B879FF800296DC8 /* ViewControllerMain.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD54F7152B877EBC003D31F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD54F6F62B877EB8003D31F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD54F6FD2B877EB8003D31F9;
+			remoteInfo = SipGuard;
+		};
+		BD54F71F2B877EBC003D31F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD54F6F62B877EB8003D31F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD54F6FD2B877EB8003D31F9;
+			remoteInfo = SipGuard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD54F6FE2B877EB8003D31F9 /* SipGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SipGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD54F7012B877EB8003D31F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD54F7032B877EB8003D31F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD54F7052B877EB8003D31F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD54F7082B877EB8003D31F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD54F70A2B877EBB003D31F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD54F70D2B877EBB003D31F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD54F70F2B877EBB003D31F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD54F7142B877EBC003D31F9 /* SipGuardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SipGuardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD54F7182B877EBC003D31F9 /* SipGuardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SipGuardTests.swift; sourceTree = "<group>"; };
+		BD54F71E2B877EBC003D31F9 /* SipGuardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SipGuardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD54F7222B877EBC003D31F9 /* SipGuardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SipGuardUITests.swift; sourceTree = "<group>"; };
+		BD54F7242B877EBC003D31F9 /* SipGuardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SipGuardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD54F7342B87813C003D31F9 /* Dial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dial.swift; sourceTree = "<group>"; };
+		BD54F7352B87813C003D31F9 /* DialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialView.swift; sourceTree = "<group>"; };
+		BD54F7362B87813C003D31F9 /* SpokesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpokesView.swift; sourceTree = "<group>"; };
+		BD54F7372B87813C003D31F9 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		BD54F7382B87813C003D31F9 /* DialHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialHeaderView.swift; sourceTree = "<group>"; };
+		BD7DE2DD2B879FF800296DC8 /* ViewControllerMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMain.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD54F6FB2B877EB8003D31F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD54F7112B877EBC003D31F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD54F71B2B877EBC003D31F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD54F6F52B877EB8003D31F9 = {
+			isa = PBXGroup;
+			children = (
+				BD54F7002B877EB8003D31F9 /* SipGuard */,
+				BD54F7172B877EBC003D31F9 /* SipGuardTests */,
+				BD54F7212B877EBC003D31F9 /* SipGuardUITests */,
+				BD54F6FF2B877EB8003D31F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD54F6FF2B877EB8003D31F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD54F6FE2B877EB8003D31F9 /* SipGuard.app */,
+				BD54F7142B877EBC003D31F9 /* SipGuardTests.xctest */,
+				BD54F71E2B877EBC003D31F9 /* SipGuardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD54F7002B877EB8003D31F9 /* SipGuard */ = {
+			isa = PBXGroup;
+			children = (
+				BD54F7342B87813C003D31F9 /* Dial.swift */,
+				BD7DE2DD2B879FF800296DC8 /* ViewControllerMain.swift */,
+				BD54F7352B87813C003D31F9 /* DialView.swift */,
+				BD54F7362B87813C003D31F9 /* SpokesView.swift */,
+				BD54F7372B87813C003D31F9 /* CircleView.swift */,
+				BD54F7382B87813C003D31F9 /* DialHeaderView.swift */,
+				BD54F7012B877EB8003D31F9 /* AppDelegate.swift */,
+				BD54F7032B877EB8003D31F9 /* SceneDelegate.swift */,
+				BD54F7052B877EB8003D31F9 /* ViewController.swift */,
+				BD54F7072B877EB8003D31F9 /* Main.storyboard */,
+				BD54F70A2B877EBB003D31F9 /* Assets.xcassets */,
+				BD54F70C2B877EBB003D31F9 /* LaunchScreen.storyboard */,
+				BD54F70F2B877EBB003D31F9 /* Info.plist */,
+			);
+			path = SipGuard;
+			sourceTree = "<group>";
+		};
+		BD54F7172B877EBC003D31F9 /* SipGuardTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD54F7182B877EBC003D31F9 /* SipGuardTests.swift */,
+			);
+			path = SipGuardTests;
+			sourceTree = "<group>";
+		};
+		BD54F7212B877EBC003D31F9 /* SipGuardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD54F7222B877EBC003D31F9 /* SipGuardUITests.swift */,
+				BD54F7242B877EBC003D31F9 /* SipGuardUITestsLaunchTests.swift */,
+			);
+			path = SipGuardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD54F6FD2B877EB8003D31F9 /* SipGuard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD54F7282B877EBC003D31F9 /* Build configuration list for PBXNativeTarget "SipGuard" */;
+			buildPhases = (
+				BD54F6FA2B877EB8003D31F9 /* Sources */,
+				BD54F6FB2B877EB8003D31F9 /* Frameworks */,
+				BD54F6FC2B877EB8003D31F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SipGuard;
+			productName = SipGuard;
+			productReference = BD54F6FE2B877EB8003D31F9 /* SipGuard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD54F7132B877EBC003D31F9 /* SipGuardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD54F72B2B877EBC003D31F9 /* Build configuration list for PBXNativeTarget "SipGuardTests" */;
+			buildPhases = (
+				BD54F7102B877EBC003D31F9 /* Sources */,
+				BD54F7112B877EBC003D31F9 /* Frameworks */,
+				BD54F7122B877EBC003D31F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD54F7162B877EBC003D31F9 /* PBXTargetDependency */,
+			);
+			name = SipGuardTests;
+			productName = SipGuardTests;
+			productReference = BD54F7142B877EBC003D31F9 /* SipGuardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD54F71D2B877EBC003D31F9 /* SipGuardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD54F72E2B877EBC003D31F9 /* Build configuration list for PBXNativeTarget "SipGuardUITests" */;
+			buildPhases = (
+				BD54F71A2B877EBC003D31F9 /* Sources */,
+				BD54F71B2B877EBC003D31F9 /* Frameworks */,
+				BD54F71C2B877EBC003D31F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD54F7202B877EBC003D31F9 /* PBXTargetDependency */,
+			);
+			name = SipGuardUITests;
+			productName = SipGuardUITests;
+			productReference = BD54F71E2B877EBC003D31F9 /* SipGuardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD54F6F62B877EB8003D31F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BD54F6FD2B877EB8003D31F9 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BD54F7132B877EBC003D31F9 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BD54F6FD2B877EB8003D31F9;
+					};
+					BD54F71D2B877EBC003D31F9 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BD54F6FD2B877EB8003D31F9;
+					};
+				};
+			};
+			buildConfigurationList = BD54F6F92B877EB8003D31F9 /* Build configuration list for PBXProject "SipGuard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD54F6F52B877EB8003D31F9;
+			productRefGroup = BD54F6FF2B877EB8003D31F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD54F6FD2B877EB8003D31F9 /* SipGuard */,
+				BD54F7132B877EBC003D31F9 /* SipGuardTests */,
+				BD54F71D2B877EBC003D31F9 /* SipGuardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD54F6FC2B877EB8003D31F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD54F70E2B877EBB003D31F9 /* LaunchScreen.storyboard in Resources */,
+				BD54F70B2B877EBB003D31F9 /* Assets.xcassets in Resources */,
+				BD54F7092B877EB8003D31F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD54F7122B877EBC003D31F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD54F71C2B877EBC003D31F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD54F6FA2B877EB8003D31F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7DE2D92B87857F00296DC8 /* DialView.swift in Sources */,
+				BD54F7062B877EB8003D31F9 /* ViewController.swift in Sources */,
+				BD54F7022B877EB8003D31F9 /* AppDelegate.swift in Sources */,
+				BD7DE2DE2B879FF800296DC8 /* ViewControllerMain.swift in Sources */,
+				BD54F7042B877EB8003D31F9 /* SceneDelegate.swift in Sources */,
+				BD7DE2D82B87857D00296DC8 /* Dial.swift in Sources */,
+				BD7DE2DC2B87858300296DC8 /* DialHeaderView.swift in Sources */,
+				BD7DE2DB2B87858200296DC8 /* CircleView.swift in Sources */,
+				BD7DE2DA2B87858000296DC8 /* SpokesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD54F7102B877EBC003D31F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD54F7192B877EBC003D31F9 /* SipGuardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD54F71A2B877EBC003D31F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD54F7252B877EBC003D31F9 /* SipGuardUITestsLaunchTests.swift in Sources */,
+				BD54F7232B877EBC003D31F9 /* SipGuardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD54F7162B877EBC003D31F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD54F6FD2B877EB8003D31F9 /* SipGuard */;
+			targetProxy = BD54F7152B877EBC003D31F9 /* PBXContainerItemProxy */;
+		};
+		BD54F7202B877EBC003D31F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD54F6FD2B877EB8003D31F9 /* SipGuard */;
+			targetProxy = BD54F71F2B877EBC003D31F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD54F7072B877EB8003D31F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD54F7082B877EB8003D31F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD54F70C2B877EBB003D31F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD54F70D2B877EBB003D31F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD54F7262B877EBC003D31F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD54F7272B877EBC003D31F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD54F7292B877EBC003D31F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SipGuard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ECE469.SipGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD54F72A2B877EBC003D31F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SipGuard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ECE469.SipGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD54F72C2B877EBC003D31F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ECE469.SipGuardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SipGuard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SipGuard";
+			};
+			name = Debug;
+		};
+		BD54F72D2B877EBC003D31F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ECE469.SipGuardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SipGuard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SipGuard";
+			};
+			name = Release;
+		};
+		BD54F72F2B877EBC003D31F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ECE469.SipGuardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SipGuard;
+			};
+			name = Debug;
+		};
+		BD54F7302B877EBC003D31F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ECE469.SipGuardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SipGuard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD54F6F92B877EB8003D31F9 /* Build configuration list for PBXProject "SipGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD54F7262B877EBC003D31F9 /* Debug */,
+				BD54F7272B877EBC003D31F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD54F7282B877EBC003D31F9 /* Build configuration list for PBXNativeTarget "SipGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD54F7292B877EBC003D31F9 /* Debug */,
+				BD54F72A2B877EBC003D31F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD54F72B2B877EBC003D31F9 /* Build configuration list for PBXNativeTarget "SipGuardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD54F72C2B877EBC003D31F9 /* Debug */,
+				BD54F72D2B877EBC003D31F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD54F72E2B877EBC003D31F9 /* Build configuration list for PBXNativeTarget "SipGuardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD54F72F2B877EBC003D31F9 /* Debug */,
+				BD54F7302B877EBC003D31F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD54F6F62B877EB8003D31F9 /* Project object */;
+}
